@@ -1,0 +1,42 @@
+body {
+    background-image: linear-gradient(to right, midnightblue, mediumslateblue);
+}
+
+#box{
+    background-color: ghostwhite;
+    width: 400;
+    height: 500;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px midnightblue;
+    text-align: center;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+#box > #user{
+    padding-top: 40px;
+}
+
+#user, #pwd{
+    font-size: 40px;
+}
+
+#input1, #input2{
+    width: 250px;
+    padding-bottom: 25px;
+    border: 2px solid midnightblue;
+    box-shadow: 3px 3px 1px midnightblue;
+    border-radius: 4px;
+    margin-top: 6px;
+}
+
+#button{
+    margin-top: 50px;
+    background-color: mediumslateblue;
+    box-shadow: 2px 2px 1px midnightblue;
+    color: ghostwhite;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+}
