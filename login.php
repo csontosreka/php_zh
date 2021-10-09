@@ -4,7 +4,7 @@
         <title>Favourite color</title>
     </head>
     <body>
-        <form id = "box", action ="processing.php" method="POST">
+        <form id = "box", action ="index.php" method="POST">
             <p id = "user">Username: <br></p>
             <input id = "input1", type="text" name="u_name"> <br>
             <p id = "pwd">Password: <br></p>

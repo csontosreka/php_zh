@@ -118,7 +118,7 @@
 
             function connectToDatabase($command){
                 
-                $conn = new mysqli("localhost", "root", "", "adatok");
+                $conn = new mysqli("sql206.epizy.com", "epiz_30003764", "CO53v4sbi2", "epiz_30003764_adatok");
                 $result = mysqli_query($conn, $command);
                 if (!$result) { 
                     die("Query Failed."); 
@@ -130,7 +130,8 @@
                     {
                         $rows[] = $row;
                     }
-                } else {
+                } 
+                if (mysqli_num_rows($result) == 0) {
                     echo "<script type='text/javascript'> 
                             alert('Invalid username! Please try again!'); 
                             location.href='login.php'; 
